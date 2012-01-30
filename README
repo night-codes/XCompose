@@ -1,0 +1,10 @@
+
+This map allows to use only two keyboard layouts for european languages:
+«latin» and «cyrillic». All symbols, missing in the layout, you can enter
+with «Compose» key, e.g.:
+
+«Compose» + «;» + «a» == ä
+«Compose» + «c»       == č
+
+It a little bit simplifies the work with multiple languages.
+
