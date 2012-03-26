@@ -37,14 +37,6 @@
 <Multi_key> <underscore>    : "–"   endash       # EN DASH
 
 #
-# Currencies
-#
-<Multi_key> <space> <Cyrillic_u>        : "€"   EuroSign     # EURO SIGN
-<Multi_key> <space> <e>                 : "€"   EuroSign     # EURO SIGN
-<Multi_key> <space> <Cyrillic_a>        : "£"   sterling     # POUND SIGN
-<Multi_key> <space> <f>                 : "£"   sterling     # POUND SIGN
-
-#
 # Trademarks
 #
 <Multi_key> <space> <c>               : "©"   copyright    # COPYRIGHT SIGN
@@ -76,18 +68,12 @@
 <Multi_key> <backslash>     : "́"    U0301        # U+0301 COMBINING ACUTE ACCENT
 
 #
-# Missing keys in Russian layout
+# Missing keys in Russian layout && currencies
 #
+<Multi_key> <1>             : "€"   EuroSign     # EURO SIGN
+<Multi_key> <2>             : "£"   sterling     # POUND SIGN
 <Multi_key> <3>             : "#"   numbersign   # NUMBER SIGN
 <Multi_key> <4>             : "$"   dollar       # DOLLAR SIGN
-
-#
-# Bindings to ease usage with the Russian „typewriter“ layout.
-#
-<Multi_key> <2>             : "—"   emdash       # EM DASH
-<Multi_key> <8>             : "–"   endash       # EN DASH
-<Multi_key> <percent>       : "‰"   U2030        # PER MILLE SIGN
-<Multi_key> <bar>           : "±"   plusminus    # PLUS-MINUS SIGN
 
 #
 # Хальмг келн, монгол хэл, другие сибирские
